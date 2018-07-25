@@ -1,0 +1,45 @@
+.barraNavegacion {
+	height: 120px;
+	background-color: gray;
+}
+.barraNavegacion>a {
+	margin-left: 5px;
+	margin-top: 25px;
+}
+.izquierda {
+	float: left;
+}
+.limpiador {
+	clear: both;
+}
+.centrado{
+	position: relative;
+	left:33%;
+	top: 25px;
+}
+.derecha {
+	float: right;
+}
+
+.fila1 {
+	background-image: url("https://www.modulosdesk.com/static/media/modulos-web-hero-bg-flip.0efcc100.jpg");
+}
+
+.fila1>div {
+	display: inline-block;
+}
+/*.fila1 {
+
+	height: 750px;
+	overflow: hidden;
+}*/
+.columna1 {
+	width: 29%;
+}
+.columna2 {
+	width:	69%;
+}
+.columna2>img {
+	height: 750px;
+	width:	100%;
+}
